@@ -19,7 +19,7 @@
         <TextView
 
             style="@style/questionStyle"
-            android:text="1. Who gave Bhishma the boon that he would die only when he wished?"/>
+            android:text="1. WHAT JAPANESE FILM IS THE GAME BASED ON?"/>
 
         <RadioGroup
             android:id="@+id/num_one_radio_group"
@@ -29,29 +29,29 @@
             android:layout_marginBottom="16dp">
 
             <RadioButton
-                android:id="@+id/shantanu_radio"
+                android:id="@+id/player_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Shantanu" />
+                android:text="Player Unknown" />
             <RadioButton
-                android:id="@+id/krishna_radio"
+                android:id="@+id/godzilla_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Krishna" />
+                android:text="Godzilla" />
             <RadioButton
-                android:id="@+id/dhritarashtra_radio"
+                android:id="@+id/batle_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Dhritarashtra" />
+                android:text="Battle Royale" />
             <RadioButton
-
+                android:id="@+id/spirited_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Ved Vyasa" />
+                android:text="Spirited Away" />
 
         </RadioGroup>
 
@@ -60,7 +60,7 @@
         <TextView
 
             style="@style/questionStyle"
-            android:text="2. Who was the daughter of Dhritarashtra?"
+            android:text="2. WHEN WAS THE GAME FIRST RELEASED?"
             />
 
         <RadioGroup
@@ -73,23 +73,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Radha" />
+                android:text="June 20 2016" />
             <RadioButton
-                android:id="@+id/dushala_radio"
+                android:id="@+id/dec2017_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Dushala" />
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="16sp"
-                android:text="Ganga" />
+                android:text="December 20 2017" />
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Kunti" />
+                android:text="December 20 2016" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="January 20 2018" />
 
         </RadioGroup>
 
@@ -98,7 +98,7 @@
         <TextView
 
             style="@style/questionStyle"
-            android:text="3. The great war lasted for?"
+            android:text="3. WHAT’S THE MAXIMUM NUMBER OF PLAYERS THAT CAN PARTICIPATE IN A MATCH?"
             />
 
 
@@ -116,44 +116,43 @@
         <!-- Question 4 -->
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="4. Who was King Santunu's  wife?"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            style="@style/questionStyle"
+            android:text="4. WHAT KIND OF GENRE IS PUBG?"
+            />
 
         <CheckBox
-            android:id="@+id/ganga_checkbox"
+            android:id="@+id/adventure_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ganga"
+            android:text="Adventure"
             android:textSize="16sp"/>
 
         <CheckBox
-            android:id="@+id/kunti_checkbox"
+            android:id="@+id/puzzle_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kunti"
+            android:text="Puzzle"
             android:textSize="16sp"/>
 
         <CheckBox
-            android:id="@+id/radha_checkbox"
+            android:id="@+id/battlerroyl_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Radha"
+            android:text="Battle Royale"
             android:textSize="16sp"/>
 
         <CheckBox
-            android:id="@+id/satyavati_checkbox"
+            android:id="@+id/combat_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Satyavati"
+            android:text="Combat"
             android:textSize="16sp"
             android:layout_marginBottom="16sp"/>
 
         <TextView
 
             style="@style/questionStyle"
-            android:text="5. Who recited the Mahabharata?"
+            android:text="5. IN WHAT MAP CAN YOU FIND THE RONY?"
             />
 
 
@@ -168,23 +167,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Shantanu" />
+                android:text="Erangel" />
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Krishna" />
+                android:text="Miramar" />
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Dhritarashtra" />
+                android:text="Vikendi" />
             <RadioButton
-                android:id="@+id/ved_vyasa_radio"
+                android:id="@+id/sanhok_radio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
-                android:text="Ved Vyasa" />
+                android:text="Sanhok" />
 
         </RadioGroup>
 
